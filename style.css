@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jua';
+
+}
+
+body {
+    background-color: #FAB22E;
+}
+
+.wrapper {
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161A;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+
+.wrapper span {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+button {
+    display: block;
+    background-color: #FAB22E;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #171721;
+    font-weight: 600;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
